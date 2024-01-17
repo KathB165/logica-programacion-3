@@ -12,5 +12,8 @@ function Factorial (numero){
 let  resultado = Factorial(numero);
 
 console.log(`El factorial del numero  ${numero} es: ${resultado}`);
-document.write(`El factorial del numero  ${numero} es: ${resultado}`)
-;
+
+const resultadojs = document.getElementById("resultado3")
+resultadojs.innerHTML = `El factorial del número ${numero} es: ${resultado}`;
+
+
